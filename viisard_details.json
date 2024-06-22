@@ -1,0 +1,1001 @@
+[
+{
+    "word": {
+        "wordId": 256727,
+        "wordValue": "viisard",
+        "wordValuePrese": "viisard",
+        "homonymNr": 1,
+        "lang": "est",
+        "morphophonoForm": "viisard",
+        "prefixoid": false,
+        "suffixoid": false,
+        "foreign": false,
+        "lexemesTagNames": [
+            "!",
+            "koostamisel"
+        ],
+        "lastActivityEventOn": "2019-09-13T07:20:25.377+00:00",
+        "manualEventOn": "2022-11-08T11:17:25.587+00:00",
+        "wordPublic": true
+    },
+    "wordTypes": [],
+    "paradigms": [
+        {
+            "paradigmId": 1455886,
+            "comment": null,
+            "inflectionType": "02e",
+            "inflectionTypeNr": "2",
+            "wordClass": "noomen",
+            "forms": [
+                {
+                    "id": 18189032,
+                    "value": "viisard",
+                    "valuePrese": "viisard",
+                    "components": null,
+                    "displayForm": "viisard",
+                    "morphCode": "SgN",
+                    "morphValue": "ainsuse nimetav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189033,
+                    "value": "viisardi",
+                    "valuePrese": "viisardi",
+                    "components": null,
+                    "displayForm": "viisardi",
+                    "morphCode": "SgG",
+                    "morphValue": "ainsuse omastav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189034,
+                    "value": "viisardit",
+                    "valuePrese": "viisardi<eki-form>t</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[t",
+                    "morphCode": "SgP",
+                    "morphValue": "ainsuse osastav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189035,
+                    "value": "-",
+                    "valuePrese": "-",
+                    "components": null,
+                    "displayForm": "-",
+                    "morphCode": "SgAdt",
+                    "morphValue": "ainsuse suunduv e lühike sisseütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189036,
+                    "value": "viisardisse",
+                    "valuePrese": "viisardi<eki-form>sse</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[sse",
+                    "morphCode": "SgIll",
+                    "morphValue": "ainsuse sisseütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189037,
+                    "value": "viisardis",
+                    "valuePrese": "viisardi<eki-form>s</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[s",
+                    "morphCode": "SgIn",
+                    "morphValue": "ainsuse seesütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189038,
+                    "value": "viisardist",
+                    "valuePrese": "viisardi<eki-form>st</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[st",
+                    "morphCode": "SgEl",
+                    "morphValue": "ainsuse seestütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189039,
+                    "value": "viisardile",
+                    "valuePrese": "viisardi<eki-form>le</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[le",
+                    "morphCode": "SgAll",
+                    "morphValue": "ainsuse alaleütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189040,
+                    "value": "viisardil",
+                    "valuePrese": "viisardi<eki-form>l</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[l",
+                    "morphCode": "SgAd",
+                    "morphValue": "ainsuse alalütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189041,
+                    "value": "viisardilt",
+                    "valuePrese": "viisardi<eki-form>lt</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[lt",
+                    "morphCode": "SgAbl",
+                    "morphValue": "ainsuse alaltütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189042,
+                    "value": "viisardiks",
+                    "valuePrese": "viisardi<eki-form>ks</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[ks",
+                    "morphCode": "SgTr",
+                    "morphValue": "ainsuse saav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189043,
+                    "value": "viisardini",
+                    "valuePrese": "viisardi<eki-form>ni</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[ni",
+                    "morphCode": "SgTer",
+                    "morphValue": "ainsuse rajav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189044,
+                    "value": "viisardina",
+                    "valuePrese": "viisardi<eki-form>na</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[na",
+                    "morphCode": "SgEs",
+                    "morphValue": "ainsuse olev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189045,
+                    "value": "viisardita",
+                    "valuePrese": "viisardi<eki-form>ta</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[ta",
+                    "morphCode": "SgAb",
+                    "morphValue": "ainsuse ilmaütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189046,
+                    "value": "viisardiga",
+                    "valuePrese": "viisardi<eki-form>ga</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[ga",
+                    "morphCode": "SgKom",
+                    "morphValue": "ainsuse kaasaütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189047,
+                    "value": "viisardid",
+                    "valuePrese": "viisardi<eki-form>d</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[d",
+                    "morphCode": "PlN",
+                    "morphValue": "mitmuse nimetav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189048,
+                    "value": "viisardite",
+                    "valuePrese": "viisardi<eki-form>te</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[te",
+                    "morphCode": "PlG",
+                    "morphValue": "mitmuse omastav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189049,
+                    "value": "viisardeid",
+                    "valuePrese": "viisarde<eki-form>id</eki-form>",
+                    "components": null,
+                    "displayForm": "viisarde[id",
+                    "morphCode": "PlP",
+                    "morphValue": "mitmuse osastav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189050,
+                    "value": "viisarditesse",
+                    "valuePrese": "viisardi<eki-form>tesse</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[tesse",
+                    "morphCode": "PlIll",
+                    "morphValue": "mitmuse sisseütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189051,
+                    "value": "viisardeisse",
+                    "valuePrese": "viisarde<eki-form>isse</eki-form>",
+                    "components": null,
+                    "displayForm": "viisarde[isse",
+                    "morphCode": "PlIll",
+                    "morphValue": "mitmuse sisseütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189052,
+                    "value": "viisardites",
+                    "valuePrese": "viisardi<eki-form>tes</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[tes",
+                    "morphCode": "PlIn",
+                    "morphValue": "mitmuse seesütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189053,
+                    "value": "viisardeis",
+                    "valuePrese": "viisarde<eki-form>is</eki-form>",
+                    "components": null,
+                    "displayForm": "viisarde[is",
+                    "morphCode": "PlIn",
+                    "morphValue": "mitmuse seesütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189054,
+                    "value": "viisarditest",
+                    "valuePrese": "viisardi<eki-form>test</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[test",
+                    "morphCode": "PlEl",
+                    "morphValue": "mitmuse seestütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189055,
+                    "value": "viisardeist",
+                    "valuePrese": "viisarde<eki-form>ist</eki-form>",
+                    "components": null,
+                    "displayForm": "viisarde[ist",
+                    "morphCode": "PlEl",
+                    "morphValue": "mitmuse seestütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189056,
+                    "value": "viisarditele",
+                    "valuePrese": "viisardi<eki-form>tele</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[tele",
+                    "morphCode": "PlAll",
+                    "morphValue": "mitmuse alaleütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189057,
+                    "value": "viisardeile",
+                    "valuePrese": "viisarde<eki-form>ile</eki-form>",
+                    "components": null,
+                    "displayForm": "viisarde[ile",
+                    "morphCode": "PlAll",
+                    "morphValue": "mitmuse alaleütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189058,
+                    "value": "viisarditel",
+                    "valuePrese": "viisardi<eki-form>tel</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[tel",
+                    "morphCode": "PlAd",
+                    "morphValue": "mitmuse alalütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189059,
+                    "value": "viisardeil",
+                    "valuePrese": "viisarde<eki-form>il</eki-form>",
+                    "components": null,
+                    "displayForm": "viisarde[il",
+                    "morphCode": "PlAd",
+                    "morphValue": "mitmuse alalütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189060,
+                    "value": "viisarditelt",
+                    "valuePrese": "viisardi<eki-form>telt</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[telt",
+                    "morphCode": "PlAbl",
+                    "morphValue": "mitmuse alaltütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189061,
+                    "value": "viisardeilt",
+                    "valuePrese": "viisarde<eki-form>ilt</eki-form>",
+                    "components": null,
+                    "displayForm": "viisarde[ilt",
+                    "morphCode": "PlAbl",
+                    "morphValue": "mitmuse alaltütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189062,
+                    "value": "viisarditeks",
+                    "valuePrese": "viisardi<eki-form>teks</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[teks",
+                    "morphCode": "PlTr",
+                    "morphValue": "mitmuse saav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189063,
+                    "value": "viisardeiks",
+                    "valuePrese": "viisarde<eki-form>iks</eki-form>",
+                    "components": null,
+                    "displayForm": "viisarde[iks",
+                    "morphCode": "PlTr",
+                    "morphValue": "mitmuse saav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189064,
+                    "value": "viisarditeni",
+                    "valuePrese": "viisardi<eki-form>teni</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[teni",
+                    "morphCode": "PlTer",
+                    "morphValue": "mitmuse rajav",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189065,
+                    "value": "viisarditena",
+                    "valuePrese": "viisardi<eki-form>tena</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[tena",
+                    "morphCode": "PlEs",
+                    "morphValue": "mitmuse olev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189066,
+                    "value": "viisarditeta",
+                    "valuePrese": "viisardi<eki-form>teta</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[teta",
+                    "morphCode": "PlAb",
+                    "morphValue": "mitmuse ilmaütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 18189067,
+                    "value": "viisarditega",
+                    "valuePrese": "viisardi<eki-form>tega</eki-form>",
+                    "components": null,
+                    "displayForm": "viisardi[tega",
+                    "morphCode": "PlKom",
+                    "morphValue": "mitmuse kaasaütlev",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                }
+            ],
+            "formsExist": true
+        }
+    ],
+    "lexemes": [
+        {
+            "wordId": 256727,
+            "wordValue": "viisard",
+            "wordValuePrese": "viisard",
+            "wordLang": "est",
+            "wordHomonymNr": 1,
+            "wordGenderCode": null,
+            "wordAspectCode": null,
+            "wordDisplayMorphCode": null,
+            "wordTypeCodes": null,
+            "prefixoid": false,
+            "suffixoid": false,
+            "foreign": false,
+            "lexemeId": 1393876,
+            "meaningId": 120498,
+            "datasetName": "EKI ühendsõnastik 2024",
+            "datasetCode": "eki",
+            "level1": 1,
+            "level2": 1,
+            "levels": "1",
+            "lexemeValueStateCode": null,
+            "lexemeValueState": null,
+            "lexemeProficiencyLevelCode": null,
+            "lexemeProficiencyLevel": null,
+            "reliability": null,
+            "tags": [],
+            "complexity": "DETAIL",
+            "weight": 1.0,
+            "wordTypes": null,
+            "pos": [
+                {
+                    "name": "POS",
+                    "code": "s",
+                    "value": "nimisõna, substantiiv"
+                }
+            ],
+            "derivs": null,
+            "registers": null,
+            "governments": [],
+            "grammars": [],
+            "usages": [],
+            "lexemeFreeforms": [],
+            "lexemeNoteLangGroups": [],
+            "lexemeRelations": [],
+            "collocationPosGroups": [],
+            "secondaryCollocations": [],
+            "sourceLinks": [],
+            "meaning": {
+                "meaningId": 120498,
+                "firstWordValue": null,
+                "lexemeIds": null,
+                "definitions": [
+                    {
+                        "id": 128647,
+                        "value": "(infotehnoloogias:) interaktiivne abivahend, mis aitab kasutajal teha keerukamaid operatsioone",
+                        "lang": "est",
+                        "complexity": "DETAIL",
+                        "orderBy": 118648,
+                        "typeCode": "määramata",
+                        "typeValue": "–",
+                        "datasetCodes": [
+                            "eki"
+                        ],
+                        "notes": [],
+                        "sourceLinks": [],
+                        "editDisabled": false,
+                        "public": true
+                    },
+                    {
+                        "id": 366117,
+                        "value": "программный инструмент, позволяющий пользователю выполнять более сложные операции",
+                        "lang": "rus",
+                        "complexity": "DETAIL",
+                        "orderBy": 332523,
+                        "typeCode": "määramata",
+                        "typeValue": "–",
+                        "datasetCodes": [
+                            "eki"
+                        ],
+                        "notes": [],
+                        "sourceLinks": [],
+                        "editDisabled": false,
+                        "public": false
+                    }
+                ],
+                "definitionLangGroups": [
+                    {
+                        "lang": "est",
+                        "selected": false,
+                        "definitions": [
+                            {
+                                "id": 128647,
+                                "value": "(infotehnoloogias:) interaktiivne abivahend, mis aitab kasutajal teha keerukamaid operatsioone",
+                                "lang": "est",
+                                "complexity": "DETAIL",
+                                "orderBy": 118648,
+                                "typeCode": "määramata",
+                                "typeValue": "–",
+                                "datasetCodes": [
+                                    "eki"
+                                ],
+                                "notes": [],
+                                "sourceLinks": [],
+                                "editDisabled": false,
+                                "public": true
+                            }
+                        ]
+                    },
+                    {
+                        "lang": "rus",
+                        "selected": false,
+                        "definitions": [
+                            {
+                                "id": 366117,
+                                "value": "программный инструмент, позволяющий пользователю выполнять более сложные операции",
+                                "lang": "rus",
+                                "complexity": "DETAIL",
+                                "orderBy": 332523,
+                                "typeCode": "määramata",
+                                "typeValue": "–",
+                                "datasetCodes": [
+                                    "eki"
+                                ],
+                                "notes": [],
+                                "sourceLinks": [],
+                                "editDisabled": false,
+                                "public": false
+                            }
+                        ]
+                    }
+                ],
+                "lexemes": null,
+                "lexemeLangGroups": null,
+                "lexemeDatasetCodes": null,
+                "domains": [],
+                "semanticTypes": [
+                    {
+                        "name": "SEMANTIC_TYPE",
+                        "code": "esitus_kujutis",
+                        "value": "pilt, sümbol, kujutis, märk"
+                    }
+                ],
+                "freeforms": [
+                    {
+                        "id": 420282,
+                        "parentId": null,
+                        "type": "CONCEPT_ID",
+                        "valueText": "241491",
+                        "valuePrese": "241491",
+                        "valueDate": null,
+                        "lang": null,
+                        "complexity": null,
+                        "orderBy": null,
+                        "children": [],
+                        "modifiedBy": null,
+                        "modifiedOn": null,
+                        "public": null
+                    }
+                ],
+                "learnerComments": [],
+                "images": [],
+                "medias": [],
+                "forums": [],
+                "noteLangGroups": [],
+                "relations": [],
+                "viewRelations": [],
+                "synonymLangGroups": null,
+                "tags": null,
+                "activeTagComplete": false,
+                "lastActivityEventOn": null,
+                "lastApproveEventOn": null,
+                "manualEventOn": null
+            },
+            "meaningWords": null,
+            "synonymLangGroups": [
+                {
+                    "lang": "rus",
+                    "selected": false,
+                    "synonyms": [
+                        {
+                            "type": "MEANING_WORD",
+                            "meaningId": null,
+                            "relationId": null,
+                            "words": [
+                                {
+                                    "wordId": 307400,
+                                    "wordValue": "мастер",
+                                    "wordValuePrese": "м<eki-stress>а</eki-stress>стер",
+                                    "homonymNr": 1,
+                                    "homonymsExist": false,
+                                    "lang": "rus",
+                                    "lexemeRegisterCodes": null,
+                                    "wordTypeCodes": null,
+                                    "prefixoid": false,
+                                    "suffixoid": false,
+                                    "foreign": false,
+                                    "lexemeId": 2248514,
+                                    "lexemeLevels": null,
+                                    "lexemeComplexity": "DETAIL",
+                                    "lexemePublic": true
+                                }
+                            ],
+                            "wordLang": "rus",
+                            "weight": 1.0,
+                            "orderBy": 2266572
+                        },
+                        {
+                            "type": "MEANING_WORD",
+                            "meaningId": null,
+                            "relationId": null,
+                            "words": [
+                                {
+                                    "wordId": 1188476,
+                                    "wordValue": "визард",
+                                    "wordValuePrese": "в<eki-stress>и</eki-stress>зард",
+                                    "homonymNr": 1,
+                                    "homonymsExist": false,
+                                    "lang": "rus",
+                                    "lexemeRegisterCodes": [
+                                        "kõnek"
+                                    ],
+                                    "wordTypeCodes": null,
+                                    "prefixoid": false,
+                                    "suffixoid": false,
+                                    "foreign": false,
+                                    "lexemeId": 2248515,
+                                    "lexemeLevels": null,
+                                    "lexemeComplexity": "DETAIL",
+                                    "lexemePublic": true
+                                }
+                            ],
+                            "wordLang": "rus",
+                            "weight": 1.0,
+                            "orderBy": 2266573
+                        }
+                    ],
+                    "inexactSynonyms": []
+                }
+            ],
+            "lexemeOrMeaningClassifiersExist": true,
+            "public": true
+        },
+        {
+            "wordId": 256727,
+            "wordValue": "viisard",
+            "wordValuePrese": "viisard",
+            "wordLang": "est",
+            "wordHomonymNr": 1,
+            "wordGenderCode": null,
+            "wordAspectCode": null,
+            "wordDisplayMorphCode": null,
+            "wordTypeCodes": null,
+            "prefixoid": false,
+            "suffixoid": false,
+            "foreign": false,
+            "lexemeId": 753269,
+            "meaningId": 359040,
+            "datasetName": "Etümoloogia",
+            "datasetCode": "ety",
+            "level1": 0,
+            "level2": 0,
+            "levels": "1",
+            "lexemeValueStateCode": null,
+            "lexemeValueState": null,
+            "lexemeProficiencyLevelCode": null,
+            "lexemeProficiencyLevel": null,
+            "reliability": null,
+            "tags": [],
+            "complexity": "DETAIL",
+            "weight": 1.0,
+            "wordTypes": null,
+            "pos": null,
+            "derivs": null,
+            "registers": null,
+            "governments": [],
+            "grammars": [],
+            "usages": [],
+            "lexemeFreeforms": [],
+            "lexemeNoteLangGroups": [],
+            "lexemeRelations": [],
+            "collocationPosGroups": [],
+            "secondaryCollocations": [],
+            "sourceLinks": [],
+            "meaning": {
+                "meaningId": 359040,
+                "firstWordValue": null,
+                "lexemeIds": null,
+                "definitions": [],
+                "definitionLangGroups": [],
+                "lexemes": null,
+                "lexemeLangGroups": null,
+                "lexemeDatasetCodes": null,
+                "domains": [],
+                "semanticTypes": [],
+                "freeforms": [],
+                "learnerComments": [],
+                "images": [],
+                "medias": [],
+                "forums": [],
+                "noteLangGroups": [],
+                "relations": [],
+                "viewRelations": [],
+                "synonymLangGroups": null,
+                "tags": null,
+                "activeTagComplete": false,
+                "lastActivityEventOn": null,
+                "lastApproveEventOn": null,
+                "manualEventOn": null
+            },
+            "meaningWords": null,
+            "synonymLangGroups": [
+                {
+                    "lang": "eng",
+                    "selected": false,
+                    "synonyms": [
+                        {
+                            "type": "MEANING_WORD",
+                            "meaningId": null,
+                            "relationId": null,
+                            "words": [
+                                {
+                                    "wordId": 561885,
+                                    "wordValue": "wizard",
+                                    "wordValuePrese": "wizard",
+                                    "homonymNr": 1,
+                                    "homonymsExist": false,
+                                    "lang": "eng",
+                                    "lexemeRegisterCodes": null,
+                                    "wordTypeCodes": null,
+                                    "prefixoid": false,
+                                    "suffixoid": false,
+                                    "foreign": false,
+                                    "lexemeId": 753268,
+                                    "lexemeLevels": null,
+                                    "lexemeComplexity": "DETAIL",
+                                    "lexemePublic": true
+                                }
+                            ],
+                            "wordLang": "eng",
+                            "weight": 1.0,
+                            "orderBy": 743269
+                        }
+                    ],
+                    "inexactSynonyms": []
+                }
+            ],
+            "lexemeOrMeaningClassifiersExist": false,
+            "public": true
+        }
+    ],
+    "wordEtymology": [
+        {
+            "wordEtymId": 56660,
+            "etymologyTypeCode": "laensõna",
+            "etymologyYear": null,
+            "comment": null,
+            "questionable": false,
+            "wordEtymSourceLinks": [],
+            "wordEtymRelations": [
+                {
+                    "wordEtymRelId": null,
+                    "relatedWordId": 561885,
+                    "relatedWord": "wizard",
+                    "relatedWordLang": "eng",
+                    "commentPrese": null,
+                    "questionable": false,
+                    "compound": false
+                }
+            ]
+        }
+    ],
+    "odWordRecommendations": [],
+    "wordRelationDetails": {
+        "wordSynRelations": null,
+        "primaryWordRelationGroups": [
+            {
+                "id": null,
+                "groupTypeCode": "ühend",
+                "groupTypeLabel": "Ühendid",
+                "members": null
+            },
+            {
+                "id": null,
+                "groupTypeCode": "raw",
+                "groupTypeLabel": "Veel sarnaseid sõnu",
+                "members": [
+                    {
+                        "id": 1863374,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 256729,
+                        "wordValue": "viisaruum",
+                        "wordValuePrese": "viisaruum",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 1853375,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 1863375,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 250375,
+                        "wordValue": "tööviisa",
+                        "wordValuePrese": "tööviisa",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 1853376,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 1863376,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 256730,
+                        "wordValue": "viisataotlus",
+                        "wordValuePrese": "viisataotlus",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 1853377,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 1863377,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 262083,
+                        "wordValue": "äriviisa",
+                        "wordValuePrese": "äriviisa",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 1853378,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 1863378,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 256711,
+                        "wordValue": "viisa",
+                        "wordValuePrese": "viisa",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 1853379,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 1863380,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 256717,
+                        "wordValue": "viisakord",
+                        "wordValuePrese": "viisakord",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 1853381,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 1863381,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 256732,
+                        "wordValue": "viisavabadus",
+                        "wordValuePrese": "viisavabadus",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 1853382,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 1863382,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 256728,
+                        "wordValue": "viisarežiim",
+                        "wordValuePrese": "viisarežiim",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 1853383,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    }
+                ]
+            },
+            {
+                "id": null,
+                "groupTypeCode": "raw",
+                "groupTypeLabel": "Võimalikud vasted",
+                "members": null
+            }
+        ],
+        "secondaryWordRelationGroups": [],
+        "wordGroups": [],
+        "groupRelationExists": false
+    },
+    "firstDefinitionValue": null,
+    "activeTagComplete": false
+}
+]

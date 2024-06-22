@@ -1,0 +1,16 @@
+<navMap>
+<navPoint class="titlepage" id="L1T" playOrder="1"> <navLabel><text>AUTHOR'S NOTE</text></navLabel>
+<content src="Sway_body.html#preface_1" />
+</navPoint>
+<navPoint class="book" id="level1-book1" playOrder="2"> <navLabel><text>PART ONE</text></navLabel>
+<content src="Sway_body.html#part_1" />
+<navPoint class="chapter" id="level2-book1chap01" playOrder="3"> <navLabel><text>THE HOUSES, 1969</text></navLabel>
+<content src="Sway_body.html#chapter_1" />
+</navPoint>
+<navPoint class="chapter" id="level2-book1chap02" playOrder="4"> <navLabel><text>ROCK AND ROLL, 1962</text></navLabel>
+<content src="Sway_body.html#chapter_2" />
+</navPoint>
+    <navPoint class="chapter" id="level2-book1chap03" playOrder="5"> <navLabel><text>THE EMPRESS, 1928–1947</text></navLabel> <content src="Sway_body.html#chapter_3" />
+</navPoint>
+</navPoint>
+</navMap>

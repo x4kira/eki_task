@@ -1,0 +1,987 @@
+[
+{
+    "word": {
+        "wordId": 508974,
+        "wordValue": "üle aitama",
+        "wordValuePrese": "üle aitama",
+        "homonymNr": 1,
+        "lang": "est",
+        "morphophonoForm": "üle `aita[ma",
+        "wordTypeCodes": [
+            "yv"
+        ],
+        "prefixoid": false,
+        "suffixoid": false,
+        "foreign": false,
+        "lexemesTagNames": [
+            "!"
+        ],
+        "lastActivityEventOn": "2019-11-18T09:17:26.318+00:00",
+        "manualEventOn": "2019-11-18T09:17:26.318+00:00",
+        "wordPublic": true
+    },
+    "wordTypes": [
+        {
+            "name": "WORD_TYPE",
+            "code": "yv",
+            "value": "ühendverb"
+        }
+    ],
+    "paradigms": [
+        {
+            "paradigmId": 1543486,
+            "comment": "Vt lähemalt <ext-link href=\"https://eki.ee/teatmik/mitmeosaliste-tegusonade-pooramine/\" target=\"ext-link\">Mitmeosaliste tegusõnade pööramine</ext-link>",
+            "inflectionType": "29",
+            "inflectionTypeNr": "29",
+            "wordClass": "verb",
+            "forms": [
+                {
+                    "id": 21209259,
+                    "value": "aitan üle",
+                    "valuePrese": "aita<eki-form>n</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[n üle",
+                    "morphCode": "IndPrSg1",
+                    "morphValue": "kindla kõneviisi oleviku ainsuse 1.pööre",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209260,
+                    "value": "aitad üle",
+                    "valuePrese": "aita<eki-form>d</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[d üle",
+                    "morphCode": "IndPrSg2",
+                    "morphValue": "kindla kõneviisi oleviku ainsuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209261,
+                    "value": "aitab üle",
+                    "valuePrese": "aita<eki-form>b</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[b üle",
+                    "morphCode": "IndPrSg3",
+                    "morphValue": "kindla kõneviisi oleviku ainsuse 3.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209262,
+                    "value": "aitame üle",
+                    "valuePrese": "aita<eki-form>me</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[me üle",
+                    "morphCode": "IndPrPl1",
+                    "morphValue": "kindla kõneviisi oleviku mitmuse 1.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209263,
+                    "value": "aitate üle",
+                    "valuePrese": "aita<eki-form>te</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[te üle",
+                    "morphCode": "IndPrPl2",
+                    "morphValue": "kindla kõneviisi oleviku mitmuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209264,
+                    "value": "aitavad üle",
+                    "valuePrese": "aita<eki-form>vad</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[vad üle",
+                    "morphCode": "IndPrPl3",
+                    "morphValue": "kindla kõneviisi oleviku mitmuse 3.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209265,
+                    "value": "aita üle",
+                    "valuePrese": "aita üle",
+                    "components": null,
+                    "displayForm": "`aita üle",
+                    "morphCode": "IndPrPs_",
+                    "morphValue": "kindla kõneviisi oleviku isikuline tegumood (eitusega)",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209266,
+                    "value": "aidatakse üle",
+                    "valuePrese": "aida<eki-form>takse</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[takse üle",
+                    "morphCode": "IndPrIps",
+                    "morphValue": "kindla kõneviisi oleviku umbisikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209267,
+                    "value": "aidata üle",
+                    "valuePrese": "aida<eki-form>ta</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[ta üle",
+                    "morphCode": "IndPrIps_",
+                    "morphValue": "kindla kõneviisi oleviku umbisikuline tegumood (eitusega)",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209268,
+                    "value": "aitasin üle",
+                    "valuePrese": "aita<eki-form>sin</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[sin üle",
+                    "morphCode": "IndIpfSg1",
+                    "morphValue": "kindla kõneviisi lihtmineviku ainsuse 1.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209269,
+                    "value": "aitasid üle",
+                    "valuePrese": "aita<eki-form>sid</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[sid üle",
+                    "morphCode": "IndIpfSg2",
+                    "morphValue": "kindla kõneviisi lihtmineviku ainsuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209270,
+                    "value": "aitas üle",
+                    "valuePrese": "aita<eki-form>s</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[s üle",
+                    "morphCode": "IndIpfSg3",
+                    "morphValue": "kindla kõneviisi lihtmineviku ainsuse 3.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209271,
+                    "value": "aitasime üle",
+                    "valuePrese": "aita<eki-form>sime</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[sime üle",
+                    "morphCode": "IndIpfPl1",
+                    "morphValue": "kindla kõneviisi lihtmineviku mitmuse 1.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209272,
+                    "value": "aitasite üle",
+                    "valuePrese": "aita<eki-form>site</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[site üle",
+                    "morphCode": "IndIpfPl2",
+                    "morphValue": "kindla kõneviisi lihtmineviku mitmuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209273,
+                    "value": "aitasid üle",
+                    "valuePrese": "aita<eki-form>sid</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[sid üle",
+                    "morphCode": "IndIpfPl3",
+                    "morphValue": "kindla kõneviisi lihtmineviku mitmuse 3.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209274,
+                    "value": "aidati üle",
+                    "valuePrese": "aida<eki-form>ti</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[ti üle",
+                    "morphCode": "IndIpfIps",
+                    "morphValue": "kindla kõneviisi lihtmineviku umbisikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209275,
+                    "value": "aitaksin üle",
+                    "valuePrese": "aita<eki-form>ksin</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[ksin üle",
+                    "morphCode": "KndPrSg1",
+                    "morphValue": "tingiva kõneviisi oleviku ainsuse 1.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209276,
+                    "value": "aitaksid üle",
+                    "valuePrese": "aita<eki-form>ksid</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[ksid üle",
+                    "morphCode": "KndPrSg2",
+                    "morphValue": "tingiva kõneviisi oleviku ainsuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209277,
+                    "value": "aitaks üle",
+                    "valuePrese": "aita<eki-form>ks</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[ks üle",
+                    "morphCode": "KndPrPs",
+                    "morphValue": "tingiva kõneviisi oleviku isikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209278,
+                    "value": "aitaksime üle",
+                    "valuePrese": "aita<eki-form>ksime</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[ksime üle",
+                    "morphCode": "KndPrPl1",
+                    "morphValue": "tingiva kõneviisi oleviku mitmuse 1.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209279,
+                    "value": "aitaksite üle",
+                    "valuePrese": "aita<eki-form>ksite</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[ksite üle",
+                    "morphCode": "KndPrPl2",
+                    "morphValue": "tingiva kõneviisi oleviku mitmuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209280,
+                    "value": "aitaksid üle",
+                    "valuePrese": "aita<eki-form>ksid</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[ksid üle",
+                    "morphCode": "KndPrPl3",
+                    "morphValue": "tingiva kõneviisi oleviku mitmuse 3.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209281,
+                    "value": "aidataks üle",
+                    "valuePrese": "aida<eki-form>taks</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[taks üle",
+                    "morphCode": "KndPrIps",
+                    "morphValue": "tingiva kõneviisi oleviku umbisikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209282,
+                    "value": "aidanuksin üle",
+                    "valuePrese": "aida<eki-form>nuksin</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[nuksin üle",
+                    "morphCode": "KndPtSg1",
+                    "morphValue": "tingiva kõneviisi mineviku ainsuse 1.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209283,
+                    "value": "aidanuksid üle",
+                    "valuePrese": "aida<eki-form>nuksid</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[nuksid üle",
+                    "morphCode": "KndPtSg2",
+                    "morphValue": "tingiva kõneviisi mineviku ainsuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209284,
+                    "value": "aidanuks üle",
+                    "valuePrese": "aida<eki-form>nuks</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[nuks üle",
+                    "morphCode": "KndPtPs",
+                    "morphValue": "tingiva kõneviisi mineviku isikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209285,
+                    "value": "aidanuksime üle",
+                    "valuePrese": "aida<eki-form>nuksime</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[nuksime üle",
+                    "morphCode": "KndPtPl1",
+                    "morphValue": "tingiva kõneviisi mineviku mitmuse 1.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209286,
+                    "value": "aidanuksite üle",
+                    "valuePrese": "aida<eki-form>nuksite</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[nuksite üle",
+                    "morphCode": "KndPtPl2",
+                    "morphValue": "tingiva kõneviisi mineviku mitmuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209287,
+                    "value": "aidanuksid üle",
+                    "valuePrese": "aida<eki-form>nuksid</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[nuksid üle",
+                    "morphCode": "KndPtPl3",
+                    "morphValue": "tingiva kõneviisi mineviku mitmuse 3.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209288,
+                    "value": "aidatuks üle",
+                    "valuePrese": "aida<eki-form>tuks</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[tuks üle",
+                    "morphCode": "KndPtIps",
+                    "morphValue": "tingiva kõneviisi mineviku umbisikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209289,
+                    "value": "aitavat üle",
+                    "valuePrese": "aita<eki-form>vat</eki-form> üle",
+                    "components": null,
+                    "displayForm": "`aita[vat üle",
+                    "morphCode": "KvtPrPs",
+                    "morphValue": "kaudse kõneviisi oleviku isikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209290,
+                    "value": "aidatavat üle",
+                    "valuePrese": "aida<eki-form>tavat</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[tavat üle",
+                    "morphCode": "KvtPrIps",
+                    "morphValue": "kaudse kõneviisi oleviku umbisikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209291,
+                    "value": "aidanuvat üle",
+                    "valuePrese": "aida<eki-form>nuvat</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[nuvat üle",
+                    "morphCode": "KvtPtPs",
+                    "morphValue": "kaudse kõneviisi mineviku isikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209292,
+                    "value": "aidatuvat üle",
+                    "valuePrese": "aida<eki-form>tuvat</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[tuvat üle",
+                    "morphCode": "KvtPtIps",
+                    "morphValue": "kaudse kõneviisi mineviku umbisikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209293,
+                    "value": "aita üle",
+                    "valuePrese": "aita üle",
+                    "components": null,
+                    "displayForm": "`aita üle",
+                    "morphCode": "ImpPrSg2",
+                    "morphValue": "käskiva kõneviisi oleviku ainsuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209294,
+                    "value": "aidakem üle",
+                    "valuePrese": "aida<eki-form>kem</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[kem üle",
+                    "morphCode": "ImpPrPl1",
+                    "morphValue": "käskiva kõneviisi oleviku mitmuse 1.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209295,
+                    "value": "aidake üle",
+                    "valuePrese": "aida<eki-form>ke</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[ke üle",
+                    "morphCode": "ImpPrPl2",
+                    "morphValue": "käskiva kõneviisi oleviku mitmuse 2.p.",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209296,
+                    "value": "aidaku üle",
+                    "valuePrese": "aida<eki-form>ku</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[ku üle",
+                    "morphCode": "ImpPrPs",
+                    "morphValue": "käskiva kõneviisi oleviku isikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209297,
+                    "value": "aidatagu üle",
+                    "valuePrese": "aida<eki-form>tagu</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[tagu üle",
+                    "morphCode": "ImpPrIps",
+                    "morphValue": "käskiva kõneviisi oleviku umbisikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209298,
+                    "value": "üle aitama",
+                    "valuePrese": "üle aita<eki-form>ma</eki-form>",
+                    "components": null,
+                    "displayForm": "üle `aita[ma",
+                    "morphCode": "Sup",
+                    "morphValue": "ma-infinitiiv e ma-tegevusnimi",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209299,
+                    "value": "üle aitamata",
+                    "valuePrese": "üle aita<eki-form>mata</eki-form>",
+                    "components": null,
+                    "displayForm": "üle `aita[mata",
+                    "morphCode": "SupAb",
+                    "morphValue": "mata-vorm",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209300,
+                    "value": "üle aitamas",
+                    "valuePrese": "üle aita<eki-form>mas</eki-form>",
+                    "components": null,
+                    "displayForm": "üle `aita[mas",
+                    "morphCode": "SupIn",
+                    "morphValue": "mas-vorm",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209301,
+                    "value": "üle aitamast",
+                    "valuePrese": "üle aita<eki-form>mast</eki-form>",
+                    "components": null,
+                    "displayForm": "üle `aita[mast",
+                    "morphCode": "SupEl",
+                    "morphValue": "mast-vorm",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209302,
+                    "value": "üle aitamaks",
+                    "valuePrese": "üle aita<eki-form>maks</eki-form>",
+                    "components": null,
+                    "displayForm": "üle `aita[maks",
+                    "morphCode": "SupTr",
+                    "morphValue": "maks-vorm",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209303,
+                    "value": "üle aidatama",
+                    "valuePrese": "üle aida<eki-form>tama</eki-form>",
+                    "components": null,
+                    "displayForm": "üle aida[tama",
+                    "morphCode": "SupIps",
+                    "morphValue": "ma-tegevusnime umbisikuline tegumood",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209304,
+                    "value": "üle aidata",
+                    "valuePrese": "üle aida<eki-form>ta</eki-form>",
+                    "components": null,
+                    "displayForm": "üle aida[ta",
+                    "morphCode": "Inf",
+                    "morphValue": "da-infinitiiv e da-tegevusnimi",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209305,
+                    "value": "üle aidates",
+                    "valuePrese": "üle aida<eki-form>tes</eki-form>",
+                    "components": null,
+                    "displayForm": "üle aida[tes",
+                    "morphCode": "Ger",
+                    "morphValue": "des-vorm",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209306,
+                    "value": "üle aitav",
+                    "valuePrese": "üle aita<eki-form>v</eki-form>",
+                    "components": null,
+                    "displayForm": "üle `aita[v",
+                    "morphCode": "PtsPrPs",
+                    "morphValue": "oleviku isikuline kesksõna e v-kesksõna",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209307,
+                    "value": "üle aidatav",
+                    "valuePrese": "üle aida<eki-form>tav</eki-form>",
+                    "components": null,
+                    "displayForm": "üle aida[tav",
+                    "morphCode": "PtsPrIps",
+                    "morphValue": "oleviku umbisikuline kesksõna e tav-kesksõna",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209308,
+                    "value": "üle aidanud",
+                    "valuePrese": "üle aida<eki-form>nud</eki-form>",
+                    "components": null,
+                    "displayForm": "üle aida[nud",
+                    "morphCode": "PtsPtPs",
+                    "morphValue": "mineviku isikuline kesksõna e nud-kesksõna",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209309,
+                    "value": "aidanud üle",
+                    "valuePrese": "aida<eki-form>nud</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[nud üle",
+                    "morphCode": "PtsPtPsNeg",
+                    "morphValue": "mitmeosalise verbi pööratud ja eitatud nud-kesksõna",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209310,
+                    "value": "üle aidatud",
+                    "valuePrese": "üle aida<eki-form>tud</eki-form>",
+                    "components": null,
+                    "displayForm": "üle aida[tud",
+                    "morphCode": "PtsPtIps",
+                    "morphValue": "mineviku umbisikuline kesksõna e tud-kesksõna",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                },
+                {
+                    "id": 21209311,
+                    "value": "aidatud üle",
+                    "valuePrese": "aida<eki-form>tud</eki-form> üle",
+                    "components": null,
+                    "displayForm": "aida[tud üle",
+                    "morphCode": "PtsPtIpsNeg",
+                    "morphValue": "mitmeosalise verbi pööratud ja eitatud tud-kesksõna",
+                    "morphFrequency": null,
+                    "formFrequency": null
+                }
+            ],
+            "formsExist": true
+        }
+    ],
+    "lexemes": [
+        {
+            "wordId": 508974,
+            "wordValue": "üle aitama",
+            "wordValuePrese": "üle aitama",
+            "wordLang": "est",
+            "wordHomonymNr": 1,
+            "wordGenderCode": null,
+            "wordAspectCode": null,
+            "wordDisplayMorphCode": null,
+            "wordTypeCodes": [
+                "yv"
+            ],
+            "prefixoid": false,
+            "suffixoid": false,
+            "foreign": false,
+            "lexemeId": 1810573,
+            "meaningId": 321898,
+            "datasetName": "EKI ühendsõnastik 2024",
+            "datasetCode": "eki",
+            "level1": 1,
+            "level2": 0,
+            "levels": "1",
+            "lexemeValueStateCode": null,
+            "lexemeValueState": null,
+            "lexemeProficiencyLevelCode": null,
+            "lexemeProficiencyLevel": null,
+            "reliability": null,
+            "tags": [],
+            "complexity": "DETAIL",
+            "weight": 1.0,
+            "wordTypes": null,
+            "pos": [
+                {
+                    "name": "POS",
+                    "code": "v",
+                    "value": "tegusõna, verb"
+                }
+            ],
+            "derivs": null,
+            "registers": null,
+            "governments": [
+                {
+                    "id": 1545498,
+                    "value": "millest",
+                    "typeCode": null,
+                    "complexity": "ANY",
+                    "orderBy": 1535499
+                }
+            ],
+            "grammars": [],
+            "usages": [
+                {
+                    "id": 1543843,
+                    "value": "raskustest üle aitama",
+                    "lang": "est",
+                    "complexity": "ANY",
+                    "orderBy": 1533844,
+                    "typeCode": null,
+                    "typeValue": null,
+                    "translations": [
+                        {
+                            "id": 1543844,
+                            "value": "пом<eki-stress>о</eki-stress>чь преодол<eki-stress>е</eki-stress>ть тр<eki-stress>у</eki-stress>дности",
+                            "lang": "rus"
+                        }
+                    ],
+                    "definitions": [],
+                    "sourceLinks": [],
+                    "public": false
+                },
+                {
+                    "id": 1545495,
+                    "value": "Kõige raskemast ajast aitas üle trenn.",
+                    "lang": "est",
+                    "complexity": "DETAIL",
+                    "orderBy": 1535496,
+                    "typeCode": null,
+                    "typeValue": null,
+                    "translations": [],
+                    "definitions": [],
+                    "sourceLinks": [],
+                    "public": true
+                },
+                {
+                    "id": 1545497,
+                    "value": "Abikaasa urinast aitab üle paks nahk.",
+                    "lang": "est",
+                    "complexity": "DETAIL",
+                    "orderBy": 1535498,
+                    "typeCode": null,
+                    "typeValue": null,
+                    "translations": [],
+                    "definitions": [],
+                    "sourceLinks": [],
+                    "public": true
+                }
+            ],
+            "lexemeFreeforms": [],
+            "lexemeNoteLangGroups": [],
+            "lexemeRelations": [],
+            "collocationPosGroups": [],
+            "secondaryCollocations": [],
+            "sourceLinks": [],
+            "meaning": {
+                "meaningId": 321898,
+                "firstWordValue": null,
+                "lexemeIds": null,
+                "definitions": [
+                    {
+                        "id": 280813,
+                        "value": "raskest või täbarast olukorrast päästma, muremõtetest vms vabastama",
+                        "lang": "est",
+                        "complexity": "DETAIL",
+                        "orderBy": 270814,
+                        "typeCode": "määramata",
+                        "typeValue": "–",
+                        "datasetCodes": [
+                            "eki"
+                        ],
+                        "notes": [],
+                        "sourceLinks": [],
+                        "editDisabled": false,
+                        "public": true
+                    }
+                ],
+                "definitionLangGroups": [
+                    {
+                        "lang": "est",
+                        "selected": false,
+                        "definitions": [
+                            {
+                                "id": 280813,
+                                "value": "raskest või täbarast olukorrast päästma, muremõtetest vms vabastama",
+                                "lang": "est",
+                                "complexity": "DETAIL",
+                                "orderBy": 270814,
+                                "typeCode": "määramata",
+                                "typeValue": "–",
+                                "datasetCodes": [
+                                    "eki"
+                                ],
+                                "notes": [],
+                                "sourceLinks": [],
+                                "editDisabled": false,
+                                "public": true
+                            }
+                        ]
+                    }
+                ],
+                "lexemes": null,
+                "lexemeLangGroups": null,
+                "lexemeDatasetCodes": null,
+                "domains": [],
+                "semanticTypes": [],
+                "freeforms": [],
+                "learnerComments": [],
+                "images": [],
+                "medias": [],
+                "forums": [],
+                "noteLangGroups": [],
+                "relations": [],
+                "viewRelations": [],
+                "synonymLangGroups": null,
+                "tags": null,
+                "activeTagComplete": false,
+                "lastActivityEventOn": null,
+                "lastApproveEventOn": null,
+                "manualEventOn": null
+            },
+            "meaningWords": null,
+            "synonymLangGroups": [
+                {
+                    "lang": "rus",
+                    "selected": false,
+                    "synonyms": [
+                        {
+                            "type": "MEANING_WORD",
+                            "meaningId": null,
+                            "relationId": null,
+                            "words": [
+                                {
+                                    "wordId": 508975,
+                                    "wordValue": "помогать преодолеть",
+                                    "wordValuePrese": "помог<eki-stress>а</eki-stress>ть преодол<eki-stress>е</eki-stress>ть",
+                                    "homonymNr": 1,
+                                    "homonymsExist": false,
+                                    "lang": "rus",
+                                    "lexemeRegisterCodes": null,
+                                    "wordTypeCodes": null,
+                                    "prefixoid": false,
+                                    "suffixoid": false,
+                                    "foreign": false,
+                                    "lexemeId": 1810574,
+                                    "lexemeLevels": null,
+                                    "lexemeComplexity": "DETAIL",
+                                    "lexemePublic": true
+                                }
+                            ],
+                            "wordLang": "rus",
+                            "weight": 1.0,
+                            "orderBy": 661010
+                        },
+                        {
+                            "type": "MEANING_WORD",
+                            "meaningId": null,
+                            "relationId": null,
+                            "words": [
+                                {
+                                    "wordId": 1147290,
+                                    "wordValue": "помочь преодолеть",
+                                    "wordValuePrese": "пом<eki-stress>о</eki-stress>чь преодол<eki-stress>е</eki-stress>ть",
+                                    "homonymNr": 1,
+                                    "homonymsExist": false,
+                                    "lang": "rus",
+                                    "lexemeRegisterCodes": null,
+                                    "wordTypeCodes": null,
+                                    "prefixoid": false,
+                                    "suffixoid": false,
+                                    "foreign": false,
+                                    "lexemeId": 2181119,
+                                    "lexemeLevels": null,
+                                    "lexemeComplexity": "DETAIL",
+                                    "lexemePublic": true
+                                }
+                            ],
+                            "wordLang": "rus",
+                            "weight": 1.0,
+                            "orderBy": 2209517
+                        }
+                    ],
+                    "inexactSynonyms": []
+                }
+            ],
+            "lexemeOrMeaningClassifiersExist": true,
+            "public": true
+        }
+    ],
+    "wordEtymology": [],
+    "odWordRecommendations": [],
+    "wordRelationDetails": {
+        "wordSynRelations": null,
+        "primaryWordRelationGroups": [
+            {
+                "id": null,
+                "groupTypeCode": "ühend",
+                "groupTypeLabel": "Ühendid",
+                "members": null
+            },
+            {
+                "id": null,
+                "groupTypeCode": "raw",
+                "groupTypeLabel": "Veel sarnaseid sõnu",
+                "members": null
+            },
+            {
+                "id": null,
+                "groupTypeCode": "raw",
+                "groupTypeLabel": "Võimalikud vasted",
+                "members": [
+                    {
+                        "id": 2337794,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 508975,
+                        "wordValue": "помогать преодолеть",
+                        "wordValuePrese": "помог<eki-stress>а</eki-stress>ть преодол<eki-stress>е</eki-stress>ть",
+                        "wordLang": "rus",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 2327795,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 2701678,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 1147290,
+                        "wordValue": "помочь преодолеть",
+                        "wordValuePrese": "пом<eki-stress>о</eki-stress>чь преодол<eki-stress>е</eki-stress>ть",
+                        "wordLang": "rus",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "raw",
+                        "relTypeLabel": "Veel sarnaseid sõnu",
+                        "orderBy": 2691679,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    }
+                ]
+            }
+        ],
+        "secondaryWordRelationGroups": [
+            {
+                "id": null,
+                "groupTypeCode": "head",
+                "groupTypeLabel": "põhisõna",
+                "members": [
+                    {
+                        "id": 1990852,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 263104,
+                        "wordValue": "üle",
+                        "wordValuePrese": "üle",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "head",
+                        "relTypeLabel": "põhisõna",
+                        "orderBy": 1980853,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    },
+                    {
+                        "id": 1990853,
+                        "lexemeId": null,
+                        "meaningId": null,
+                        "wordId": 155602,
+                        "wordValue": "aitama",
+                        "wordValuePrese": "aitama",
+                        "wordLang": "est",
+                        "wordAspectCode": null,
+                        "wordTypeCodes": null,
+                        "prefixoid": false,
+                        "suffixoid": false,
+                        "foreign": false,
+                        "wordHomonymNr": null,
+                        "homonymsExist": false,
+                        "relTypeCode": "head",
+                        "relTypeLabel": "põhisõna",
+                        "orderBy": 1980854,
+                        "groupId": null,
+                        "groupWordRelTypeCode": null
+                    }
+                ]
+            }
+        ],
+        "wordGroups": [],
+        "groupRelationExists": true
+    },
+    "firstDefinitionValue": null,
+    "activeTagComplete": false
+}
+]
