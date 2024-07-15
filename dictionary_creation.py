@@ -1,51 +1,23 @@
+"""
+Python 3.12 is mostly recommended, but versions >= 3.6 should work too or if any problems occur, then
+only few adjustments should be needed.
+
+****************************** !!! IMPORTANT !!! ******************************
+*** Please do not use code (even with changes) publicly without addressing to author and/or EKI. ***
+"""
+
 import requests
 import json
-import re
 
 ekilex_api_base_url = "https://ekilex.ee/api/"
 possible_compound_verbs = []
-last_est_id = 1384169  # 1384169, 1384186 -> peaks 1384169 olema
-
-testing_data = [
-    {"wordId": 263219, "value": "ülekäigurada", "lang": "est", "morphExists": True},
-    {"wordId": 524218, "value": "prurigo", "lang": "lat", "morphExists": False},
-    {"wordId": 210889, "value": "ole lahke", "lang": "est", "morphExists": True},
-    {"wordId": 154877, "value": "abstraktne kunst", "lang": "est", "morphExists": True},
-    {"wordId": 154504, "value": "Aafrika elevant", "lang": "est", "morphExists": True},
-    {"wordId": 1241409, "value": "slogan", "lang": "fra", "morphExists": False},
-    {"wordId": 234992, "value": "solgiga üle valama", "lang": "est", "morphExists": True},
-    {"wordId": 289477, "value": "abiks olema", "lang": "est", "morphExists": True},
-    {"wordId": 155062, "value": "aega viitma", "lang": "est", "morphExists": True},
-    {"wordId": 285490, "value": "aega võtma", "lang": "est", "morphExists": True},
-    {"wordId": 263104, "value": "üle", "lang": "est", "morphExists": True},
-    {"wordId": 156734, "value": "Alpid", "lang": "est", "morphExists": False},
-    {"wordId": 1205479, "value": "amü", "lang": "est", "morphExists": False},
-    {"wordId": 197328, "value": "luurama", "lang": "est", "morphExists": True},
-    {"wordId": 162941, "value": "ei saa üle ega ümber", "lang": "est", "morphExists": True},
-    {"wordId": 174976, "value": "jõuga üle sõitma", "lang": "est", "morphExists": True},
-    {"wordId": 508974, "value": "üle aitama", "lang": "est", "morphExists": True},
-    {"wordId": 155602, "value": "aitama", "lang": "est", "morphExists": True},
-    {"wordId": 263295, "value": "üle minema", "lang": "est", "morphExists": True},
-    {"wordId": 158017, "value": "armas", "lang": "est", "morphExists": True},
-    {"wordId": 237939, "value": "suur", "lang": "est", "morphExists": True},
-    {"wordId": 1620434, "value": "numinoosne", "lang": "est", "morphExists": True},
-    {"wordId": 441341, "value": "demopoliitika", "lang": "est", "morphExists": True},
-    {"wordId": 261075, "value": "õnnelik", "lang": "est", "morphExists": True}
-]
-
-
-def dictionary_creator(api_key: str):
-    public_word_url = "public_word/eki"
-    # get_last_est_id(api_key)
-
-    # dynamically_write_est_word_to_json_file(api_key, public_word_url, "all_est_words_with_id", "all_est_compound_verbs")
-    json_reader_writer_with_sorter_meaning_paradigm("all_est_words_with_id", "all_est_words_with_paradigms_meanings",
-                                                    api_key)
-    # add_compound_verbs_to_json_file("all_est_words_with_paradigms_meanings", "all_est_words_with_comp", "all_est_compound_verbs", api_key)
-    # convert_json_to_xhtml("all_est_words_with_comp", "xhtml_dictionary")
+# testing_data = [] this global variable is for testing purposes (funstion test_write_to_json_file)
+last_est_id = 1384169  # Must be manually set after calling out get_last_est_id_with_meaning()
 
 
 def est_noncapitalized_single_words_sorter(data: dict):
+    """Recommended sorter to sort out estonian words that are not capitalized single words.
+    Can be given as parameter to dynamivally_write_all_est_word_to_json_file() and test_write_to_json_file()."""
     if data['lang'] == 'est' and data["value"].islower() and " " not in data["value"]:
         return data
     elif data["lang"] == "est" and " " in data["value"] and data["value"].islower() and len(
@@ -54,35 +26,26 @@ def est_noncapitalized_single_words_sorter(data: dict):
 
 
 def get_last_est_id_with_meaning(api_key: str):
+    """Gets the last id of an estonian word that has meaning, useful when using public_word/eki API command
+    because then the code won't iterate through all the words"""
     public_word_url = "public_word/eki"
     headers = {"ekilex-api-key": api_key}
-    pattern = r"{\"wordId\": \d*, \"value\": \".*\", \"lang\": \"est\", \"morphExists\": .*}"
-    last_id_pattern = r"(?<=\"wordId\": )\d+"
-    value_pattern = r'\"value\": \"(.*?)\"'
 
-    response = requests.get(ekilex_api_base_url + public_word_url, headers=headers)
-    if response.status_code == 200:
+    try:
+        response = requests.get(ekilex_api_base_url + public_word_url, headers=headers)
+        response.raise_for_status()
         data = response.json()
-        data_string = json.dumps(data, ensure_ascii=False)
-        matches = list(re.finditer(pattern, data_string))
-        if matches:
-            for match in matches:
-                backwards_index = -1
-                last_match = matches[backwards_index]
-                id_search = re.search(last_id_pattern, str(last_match))
-                value_search = re.search(value_pattern, str(last_match))
-                global last_est_id
-                last_est_id = id_search.group()
-                value = value_search.group(1)
-                if get_word_meaning_paradigm_adjective_comparison(api_key, int(last_est_id), value, if_osi_word):
-                    print(value)
-                    return last_est_id
-                else:
-                    backwards_index -= 1
-        else:
-            print("No last est id found.")
-    else:
-        print("Something went wrong while trying to get last est id, status code: " + str(response.status_code))
+        backwards_data = data[::-1]
+
+        for word_dict in backwards_data:
+            if word_dict["lang"] == "est" and get_word_meaning_paradigm_adjective_comparison(api_key,
+                                                                                             word_dict["wordId"],
+                                                                                             word_dict["value"]):
+                last_est_id = word_dict["wordId"]
+                print(f"Change manually global variable last_est_id to: {last_est_id}")
+                break
+    except Exception as e:
+        print(f"Error occures while finding last est id with meaning: {e}")
 
 
 def get_word_meaning_paradigm_adjective_comparison(api_key: str, word_id: int, word: str, osi_sorter=None):
@@ -125,9 +88,11 @@ def empty_response_checker(response):
 
 
 def if_osi_word(data: dict) -> bool:
+    """This functon can be used to sort out words that have tag "ÕSi sõna" and/or "ÕSi liitsõna".
+    Can be given as parameter to function get_word_meaning_paradigm_adjective_comparison()."""
     word = data["word"]
     lexemesTagNames = word["lexemesTagNames"]
-    return "ÕSi liitsõna" in lexemesTagNames or "ÕSi sõna" in lexemesTagNames
+    return "ÕSi sõna" in lexemesTagNames and "ÕSi liitsõna" not in lexemesTagNames  # "ÕSi liitsõna" in lexemesTagNames or
 
 
 def get_word_type(data: dict):
@@ -182,7 +147,7 @@ def get_meanings_list(data):
     lexemes_first_dict = data["lexemes"][0]
     meaning = lexemes_first_dict["meaning"]
     definitions = meaning["definitions"]
-    est_meaning_dicts = [small_dict for small_dict in definitions if small_dict["lang"] == "est"]
+    est_meaning_dicts = [small_dict for small_dict in definitions if small_dict["lang"] == "est" and small_dict["public"] == True]
     meanings = [meaning["value"] for meaning in est_meaning_dicts]
     if meanings:
         return meanings
@@ -193,16 +158,21 @@ def get_paradigm_list(data):
     whole_paradigm_dict = paradigms_whole_list[0]
     forms = whole_paradigm_dict["forms"]
     forms_list = [form_dict["value"] for form_dict in forms if
-                  form_dict["value"] != "-"]  # non-existing forms aka "-" are sorted out right now
+                  form_dict["value"] != "-"]
     return forms_list
 
 
-def dynamically_write_est_word_to_json_file(api_key: str, api_command: str, output_file_name: str,
-                                            compound_verbs_list_file_name: str):
-    url = ekilex_api_base_url + api_command
+def dynamically_write_all_est_word_to_json_file(api_key: str, output_file_name: str,
+                                                compound_verbs_list_file_name: str):
+    """Creating a json file of all estonian words that aren't capitalized and are single words,
+    possible compound verbs are written into other file. Filter can be removed."""
+    public_command = "public_word/eki"
+    url = ekilex_api_base_url + public_command
     headers = {"ekilex-api-key": api_key}
 
-    with requests.get(url, headers=headers, stream=True) as response, open(output_file_name + '.json', 'w') as file, open(compound_verbs_list_file_name + '.json', 'w') as file2:
+    with requests.get(url, headers=headers, stream=True) as response, open(output_file_name + '.json',
+                                                                           'w') as file, open(
+        compound_verbs_list_file_name + '.json', 'w') as file2:
         try:
             response.raise_for_status()
             file.write('[\n')
@@ -219,12 +189,13 @@ def dynamically_write_est_word_to_json_file(api_key: str, api_command: str, outp
             file2.write(json.dumps(possible_compound_verbs, ensure_ascii=False))
 
         except requests.exceptions.HTTPError as e:
-            return f"HTTP error occurred: {e}"
+            print(f"HTTP error occurred: {e}")
         except Exception as e:
             print(f"Other error occurred while public request and: {e}")
 
 
-def json_reader_writer_with_sorter_meaning_paradigm(input_file_name: str, output_file_name: str, api_key: str):
+def json_reader_writer_meaning_paradigm(input_file_name: str, output_file_name: str, api_key: str):
+    """Adds detailed information to words like meaning, paradigm, comparison, word type (if these exist)."""
     with open(input_file_name + '.json', 'r') as input_file, open(output_file_name + '.json', 'w') as output_file:
         try:
             output_file.write('[\n')
@@ -234,7 +205,7 @@ def json_reader_writer_with_sorter_meaning_paradigm(input_file_name: str, output
                 word_dict = line_convertor_to_dict(line)
                 if word_dict:
                     word_data = get_word_meaning_paradigm_adjective_comparison(api_key, word_dict["wordId"],
-                                                                               word_dict["value"], if_osi_word)
+                                                                               word_dict["value"])
                     if word_data:
                         print(word_data["word"])
                         if prev_data is not None:
@@ -250,7 +221,7 @@ def json_reader_writer_with_sorter_meaning_paradigm(input_file_name: str, output
             print(f"Error occurred while reading-writing meaning-paradigms: {e}")
 
 
-def line_convertor_to_dict(line: str):  # -> dict | None
+def line_convertor_to_dict(line: str):
     if line[0] == "{":
         if line[-2] == ",":
             cut_dict = line[:-2]
@@ -258,30 +229,6 @@ def line_convertor_to_dict(line: str):  # -> dict | None
         else:
             cut_dict = line[:-1]
             return json.loads(cut_dict)
-
-
-def test_write_to_json_file(output_file_name: str, compound_verbs_list_file_name: str, sorter_func=None):
-    with open(output_file_name + '.json', 'w') as file, open(compound_verbs_list_file_name + '.json', 'w') as file2:
-        try:
-            file.write('[\n')
-            prev_data = None
-
-            for line in testing_data:
-                if sorter_func is None or sorter_func(line):
-                    if prev_data is not None:
-                        file.write(json.dumps(prev_data, ensure_ascii=False))
-                        file.write(",\n")
-                    prev_data = line
-
-            if prev_data is not None:
-                file.write(json.dumps(prev_data, ensure_ascii=False))
-
-            file.write('\n]')
-
-            file2.write(json.dumps(possible_compound_verbs, ensure_ascii=False))
-
-        except Exception as e:
-            print(f"Other error occurred: {e}")
 
 
 def compound_verbs_sorter(list_file_name: str, api_key: str):
@@ -309,7 +256,6 @@ def compound_verbs_sorter(list_file_name: str, api_key: str):
                                     compound_verbs[verb].add(word)
                                 if verb not in compound_verbs.keys():
                                     compound_verbs[verb] = {word}
-            print(compound_verbs)
             return compound_verbs
     except Exception as e:
         print(f"Error occurred while handling compound verbs file: {e}")
@@ -326,7 +272,7 @@ def add_compound_verbs_to_json_file(input_file_name: str, output_file_name: str,
                     word_dict = line_convertor_to_dict(line)
                     print(word_dict["word"])
                     if word_dict["word"] in compound_verbs_dict.keys():
-                        word_dict["compound verbs"] = compound_verbs_dict[word_dict["word"]]
+                        word_dict["compound verbs"] = list(compound_verbs_dict[word_dict["word"]])
                         output_file.write(json.dumps(word_dict, ensure_ascii=False) + ",\n")
                     elif word_dict["wordId"] == last_est_id:
                         print(word_dict["word"])
@@ -340,6 +286,12 @@ def add_compound_verbs_to_json_file(input_file_name: str, output_file_name: str,
 
 def dynamically_write_any_api_data_to_json_file(api_key: str, api_command: str, output_file_name: str,
                                                 sorter_func=None):
+    """Making a json file of any api command, great for making example files.
+    (https://ekilex.ee/api/ part of command is added from ekilex_api_base_url)
+    Example API commands:
+    word/search/{word}
+    word/details/{wordId}...
+    more commands: https://github.com/keeleinstituut/ekilex/wiki/Ekilex-API"""
     url = ekilex_api_base_url + api_command
     headers = {"ekilex-api-key": api_key}
 
@@ -366,6 +318,7 @@ def dynamically_write_any_api_data_to_json_file(api_key: str, api_command: str, 
 
 
 def continuing_after_error(original_data_file_name: str, with_error_file_name: str, api_key: str):
+    """Function can be changed according to your needs, depends on what process error occurred."""
     try:
         last_id = 0
         with open(with_error_file_name + '.json', 'r') as file:
@@ -384,11 +337,11 @@ def continuing_after_error(original_data_file_name: str, with_error_file_name: s
                         continue
                     elif passed_error:
                         if get_word_meaning_paradigm_adjective_comparison(api_key, word_dict["wordId"],
-                                                                          word_dict["value"], if_osi_word):
+                                                                          word_dict["value"]):
                             if word_dict["wordId"] == last_est_id:
                                 writing_file.write(json.dumps(
                                     get_word_meaning_paradigm_adjective_comparison(api_key, word_dict["wordId"],
-                                                                                   word_dict["value"], if_osi_word),
+                                                                                   word_dict["value"]),
                                     ensure_ascii=False) + "\n")
                                 writing_file.write(']')
                                 print("file written!")
@@ -397,12 +350,30 @@ def continuing_after_error(original_data_file_name: str, with_error_file_name: s
                                 print(word_dict["value"])
                                 writing_file.write(json.dumps(
                                     get_word_meaning_paradigm_adjective_comparison(api_key, word_dict["wordId"],
-                                                                                   word_dict["value"], if_osi_word),
+                                                                                   word_dict["value"]),
                                     ensure_ascii=False) + ",\n")
     except Exception as e:
         if "Caused by ConnectTimeoutError" in str(e):
             continuing_after_error(original_data_file_name, with_error_file_name, api_key)
         print(f"Error occurred while continuing after error: {e}")
+
+
+def custom_json_file_copyer(input_file_name: str, output_file_name: str):
+    """Function can be freely changed if copying until certain wordId is needed."""
+    with open(input_file_name + '.json', 'r') as input_file, open(output_file_name + '.json', 'w') as output_file:
+        try:
+            output_file.write('[\n')
+            for line in input_file:
+                if line_convertor_to_dict(line):
+                    word_dict = line_convertor_to_dict(line)
+                    if word_dict["wordId"] == 172630:
+                        output_file.write(json.dumps(word_dict, ensure_ascii=False) + "\n")
+                        output_file.write(']')
+                        break
+                    else:
+                        output_file.write(json.dumps(word_dict, ensure_ascii=False) + ",\n")
+        except Exception as e:
+            print(f"Error occurred while reading-writing compound verbs: {e}")
 
 
 def convert_json_to_xhtml(input_file_name: str, output_file_name: str):
@@ -426,7 +397,7 @@ def convert_json_to_xhtml(input_file_name: str, output_file_name: str):
                         forms_html = f''
                         forms = list(set(word_dict["forms"]))
                         for form in forms:
-                            forms_html += f'<idx:iform value="{form}"></idx:iform> '
+                            forms_html += f'<idx:iform value="{form}" exact="yes"/> </idx:iform> '
                         word_html += forms_html
                     word_html += f'</idx:infl>\n</idx:orth>'
                     if "type" in word_dict:
@@ -453,15 +424,44 @@ def convert_json_to_xhtml(input_file_name: str, output_file_name: str):
                         word_html += f'<p> Ühendtegusõnad: {compound_verbs_string} </p>'
                     word_html += f'</idx:short>\n</idx:entry><br><br>\n\n'
                     print(word)
-                    output_file.write(word_html)
+                    output_file.write(kindlegen_recommended_replacements(word_html))
             output_file.write("</mbp:frameset>" + "\n" + '<section/>' + "\n" + "</body>" + "\n" + "</html>")
         except Exception as e:
             print(f"Error occur while converting json file to xhtml: {e}")
 
 
+# def test_write_to_json_file(output_file_name: str, compound_verbs_list_file_name: str, sorter_func=None):
+#     """Can be used to write to json file list of dicts as a global variable called testing_data. Good for testing
+#     purposes. It also creates by default other json file for possible compound verbs. Can be freely modified."""
+#     with open(output_file_name + '.json', 'w') as file, open(compound_verbs_list_file_name + '.json', 'w') as file2:
+#         try:
+#             file.write('[\n')
+#             prev_data = None
+#
+#             for line in testing_data:
+#                 if sorter_func is None or sorter_func(line):
+#                     if prev_data is not None:
+#                         file.write(json.dumps(prev_data, ensure_ascii=False))
+#                         file.write(",\n")
+#                     prev_data = line
+#
+#             if prev_data is not None:
+#                 file.write(json.dumps(prev_data, ensure_ascii=False))
+#
+#             file.write('\n]')
+#
+#             file2.write(json.dumps(possible_compound_verbs, ensure_ascii=False))
+#
+#         except Exception as e:
+#             print(f"Other error occurred: {e}")
+
+
+def kindlegen_recommended_replacements(word_html: str):
+    new_word_html = word_html.replace("<eki-foreign>", "<i>").replace("</eki-foreign>", "</i>").replace(
+        "<eki-highlight>", "<b>").replace("</eki-highlight>", "</b>").replace("<eki-sup>", "<sup>").replace(
+        "</eki-sup>", "</sup>").replace("<eki-link", "<b").replace("</eki-link>", "</b>").replace('<idx:iform value=""></idx:iform>', "").replace("<idx:infl>\n</idx:infl>", "")
+    return new_word_html
+
+
 if __name__ == '__main__':
-    # print(get_last_est_id_with_meaning("2b209545d7654ce99c995994ac8aef1f"))
-    # json_reader_writer_with_sorter_meaning_paradigm("all_est_words_with_id", "all_est_words_with_p_m_osi_filtriga", "2b209545d7654ce99c995994ac8aef1f")
-    # dynamically_write_est_word_to_json_file("2b209545d7654ce99c995994ac8aef1f", "public_word/eki", "all_est_words_with_id", "all_est_compound_verbs_list")
-    # add_compound_verbs_to_json_file("all_est_words_with_p_m_osi_filtriga", "all_est_words_with_comp", "all_est_compound_verbs_list", "2b209545d7654ce99c995994ac8aef1f")
-    convert_json_to_xhtml("all_est_words_with_p_m_osi_filtriga", "xhtml_osi_dictionary")
+    #  It's recommended to use main block to call out functions one-by-one, so it's easier to debug and/or adjust code.
