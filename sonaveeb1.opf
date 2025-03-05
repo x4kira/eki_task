@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid">
+<metadata>
+  <dc-metadata xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+    <dc:Title>Seletav sõnaraamat 1</dc:Title>
+    <dc:Language>en-us</dc:Language>
+    <dc:Creator>Annabel Kukk</dc:Creator>
+    <dc:Description>EKI sõnaveeb.ee sõnastik</dc:Description>
+    <dc:Date>juuni 2024</dc:Date>
+  </dc-metadata>
+  <x-metadata>
+    <output encoding="utf-8" content-type="text/x-oeb1-document"></output>
+    <EmbeddedCover>kaanepilt.jpg</EmbeddedCover>
+    <DictionaryInLanguage>en</DictionaryInLanguage>
+    <DictionaryOutLanguage>us</DictionaryOutLanguage>
+  </x-metadata>
+</metadata>
+<manifest>
+<item id="ncx" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    <item id="content" media-type="application/xhtml+xml" href="Sway_body.html"/>
+  <item id="item1" media-type="text/x-oeb1-document" href="xhtml_dictionary.html"></item>
+</manifest>
+<spine toc="ncx">
+    <itemref idref="content"/>
+  </spine>
+<guide>
+  <reference type="toc" title="Sisukord" href="xhtml_dictionary#toc"></reference>
+</guide>
+</package>
